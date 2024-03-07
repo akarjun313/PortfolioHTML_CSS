@@ -1,0 +1,119 @@
+/* Responsive For Tabs  */
+
+@media (min-width: 501px) and (max-width: 1180px){
+   
+    /* Basic Changes  */
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Top Section  */
+    .parent{
+        width: 100%;
+        
+    }
+
+    /* My Profile Pic  */
+    .parent #pro-pic{
+        width: 30%;
+        margin: 0%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .parent #pro-pic img{
+        width: 175px;
+        height: 175px;
+    }
+
+    /* My Details  */
+    .parent #my-id{
+        flex-direction: column;
+        padding-left: 20px;
+        width: 60%;
+    }
+    .parent #my-id #basic-details{
+        width: auto;
+    }
+    #basic-details h5{
+        font-size: 35px;
+    }
+    #basic-details h6{
+        font-size: 15px;
+        margin-bottom: 2px;
+        margin-top: 3px;
+    }
+    .parent #my-id #contact{
+        border-left: none;
+        height: auto;
+        width: auto;
+    }
+    .parent #my-id #contact h4{
+        margin-left: 0%;
+        margin-bottom: 0%;
+        font-size: 15px;
+    }
+    .parent #my-id #contact ul{
+        margin-top: 5px;
+    }
+
+    /* Main Body Bottom  */
+    .parent02{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-sec{
+        width: 100%;
+    }
+    .left-bottom{
+        border-top: none;
+        margin-top: 30px;
+    }
+    .edu-span ul li h3{
+        margin-top: 0%;
+    }
+
+    .mid-sec{
+        width: 100%;
+        border-left: none;
+        margin-left: 30px;
+    }
+    .mid-sec-div ul li h3{
+        margin-top: 0%;
+    }
+
+    .right-sec{
+        width: 100%;
+        border-left: none;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .right-sec #right-sec-div{
+        border-bottom: none;
+    }
+    .right-sec #right-sec-div p{
+        margin-left: 30px;
+    }
+    
+    .right-bottom{
+        margin-top: 70px ;
+        margin-right: 50px;
+    }
+
+    /* Form section  */
+    .right-bottom form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-bottom #comment-sec{
+        width: 80%;
+    }
+
+    /* animation  */
+    .animation{
+        margin-top: -20%;
+        margin-left: 85%;
+    }
+}

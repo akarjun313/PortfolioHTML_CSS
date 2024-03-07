@@ -1,0 +1,108 @@
+/* Responsive for Mobiles */
+
+@media (min-width: 320px) and (max-width: 500px){
+    body{
+        overflow: auto;
+        height: auto;
+        padding: 10px;
+    }
+    .parent{
+        flex-direction: column;
+    }
+    #pro-pic img{
+        width: 150px;
+        height: 150px;
+    }
+    #pro-pic{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0%;
+
+    }
+    #my-id{
+        width: auto;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    #basic-details{
+        width: 100%;
+    }
+    #contact{
+        width: 100%;
+        border-left: none;
+        height: auto;
+    }
+    #contact h4{
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    #contact ul{
+        margin-top: 1px;
+    }
+
+    /* my name size  */
+    #my-id h5{
+        font-size: 30px;
+    }
+
+    /* my desigination size  */
+    #my-id h6{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* Bottom main sec. (main details) */
+    .parent02{
+        flex-direction: column;
+    }
+    .left-sec{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .edu-span ul li h3{
+        margin-top: 0%;
+    }
+
+    .mid-sec{
+        width: 100%;
+    }
+    .mid-sec-div ul li h3{
+        margin-top: 0%;
+    }
+
+    .right-sec{
+        width: 100%;
+    }
+    .right-sec #right-sec-div p{
+        margin-left: 29px;
+    }
+
+
+    /* cleaning all borders  */
+    .right-sec #right-sec-div{
+        border-bottom: none;
+    }
+    .left-bottom{
+        border-top: none;
+    }
+    .mid-sec{
+        border-left: none;
+    }
+    .right-sec{
+        border-left: none;
+    }
+
+
+    .right-bottom form{
+        margin-top: 50px;
+    }
+    .right-bottom #comment-sec{
+        width: 100%;
+    }
+
+    /* animation  */
+    .animation{
+        margin-top: -125px;
+    }
+}
